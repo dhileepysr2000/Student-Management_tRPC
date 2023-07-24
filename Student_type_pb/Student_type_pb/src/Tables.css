@@ -1,0 +1,70 @@
+table {
+    margin-left: 15em;
+    width: 50em;
+    height: auto;
+
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: .1em solid rgb(216, 213, 213);
+    transform: scale(1);
+    padding: .4em;
+}
+
+tr {
+    margin-top: 2em;
+}
+
+td {
+    text-align: center;
+}
+
+.delete_button {
+    background-color: hsl(178, 50%, 39%);
+    width: 3.5em;
+    height: 1.3em;
+    color: white;
+    font-weight: 200;
+    font-size: 1em;
+    border: none;
+    outline: none;
+    border-radius: .4em;
+    text-align: center;
+}
+
+.edit_button {
+    background-color: hsl(235, 72%, 67%);
+    width: 4em;
+    height: 1.3em;
+    color: white;
+    font-weight: 200;
+    font-size: 1em;
+    border: none;
+    outline: none;
+    border-radius: .4em;
+    text-align: center;
+}
+.edit_button:hover{
+    background-color: darkslateblue;
+}
+
+.form_button {
+    background-color: hsl(178, 50%, 39%);
+    width: 5em;
+    height: 2em;
+    color: white;
+    font-weight: 200;
+    font-size: 1em;
+    border: none;
+    outline: none;
+    border-radius: .4em;
+    margin-left: 60em;
+    margin-top: 2em;
+    margin-bottom: .5em;
+}
+.form_button:hover{
+    background-color: darkslateblue;
+}
